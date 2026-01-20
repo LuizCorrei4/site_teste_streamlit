@@ -8,7 +8,5 @@ st.image("img/img_3_meninas.jpeg")
 colunas = st.columns(3)
 
 colunas[0] = st.image("img/like_insta.jpeg")
-colunas[1] = st.image("img/like_insta.jpeg")
-colunas[2] = st.image("img/like_insta.jpeg")
 
 st.file_uploader("Escolha uma imagem", type = ["jpg", "jpeg", "gif", "png"])
